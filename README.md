@@ -9,7 +9,6 @@ selenium-cucumber is a behavior driven development (BDD) approach to write autom
 # Pre-requisites
 Java
 Maven
-Docker
 Eclipse
 Eclipse Plugins
 Cucumber
@@ -26,9 +25,7 @@ Goto project directory.
 
 Use "mvn test" command to run features.
 
-browser_name can be one of following but make sure that browser’s driver file are present and specified in system variable. -- ff -- chrome -- ie -- safari
-
-Use mvn test -Dcucumber.options="classpath:features/my_first.feature" to run specific feature if you have multiple feature files.
 
 
-# QA_Rangers01
+
+
